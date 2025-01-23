@@ -1,7 +1,49 @@
+/* for mobile devices write css here */
 
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.banner-img{
+    z-index: -11;
+ 
+    position: absolute;
+    object-fit: cover;
+    height: 65vh;
+    width: 100%;
+
+}
+
+.bg-img{
+    position: absolute;
+    
+    height: 65vh;
+    width: 100%;
+
+}
+
+.main{
+
+   
+  
+
+}
+
+.box{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
 
 @media  screen and (min-width : 768px) {
-    
+  .nav-container{
+    width: 95%;
+    margin: 10px auto ;
+    height: 40px;
+    color: red;
+    border-bottom: 2px solid green;
+  }
 }
 
 @media screen and (min-width : 1024px) {
