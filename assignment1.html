@@ -70,34 +70,22 @@
             </table>
         </form>
     </main>
-    <script>
-        document.querySelector('.submit-button').addEventListener('click', function (e) {
-            e.preventDefault();
-            const name = document.getElementById('name').value;
-            const gender = document.querySelector('input[name="gender"]:checked').value;
-            const hobbies = Array.from(document.querySelectorAll('input[name="hobbies"]:checked')).map(hobby => hobby.value);
-            const country = document.getElementById('country').value;
-            const bio = document.getElementById('bio').value;
-
-            console.log('Name:', name);
-            console.log('Gender:', gender);
-            console.log('Hobbies:', hobbies);
-            console.log('Country:', country);
-            console.log('Bio:', bio);
-
-            const formData = new FormData(document.querySelector('form'));
-            for (let [key, value] of formData.entries()) {
-                console.log(`${key}: ${value}`);
-            }
-
-        });</script>
-
+   
 
 
 
     <footer>
 
+        <center>
+            <p>&copy; 2025, All rights reserved</p>
+        </center>
     </footer>
+
+   
+  
+  <center><video src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" controls width="500px"></video></center>
+   
+
 </body>
 
 </html>
